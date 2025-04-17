@@ -60,6 +60,7 @@ fun mainScreen(modifier: Modifier = Modifier){
         Text(
             text = stringResource(R.string.Title),
             fontWeight = FontWeight.Bold,
+            color = Color.White,
             fontSize = 28.sp,
             textAlign = TextAlign.Center,
             modifier = Modifier
@@ -101,8 +102,9 @@ fun mainScreen(modifier: Modifier = Modifier){
         }
         Text(
             text = stringResource(textCaption),
+            fontSize = 20.sp,
             modifier = Modifier
-                .padding(top = 20.dp)
+                .padding(top = 25.dp)
 
         )
     }
